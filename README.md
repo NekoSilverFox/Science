@@ -1,6 +1,16 @@
-# Science
+<p align="center">
+ <img width="100px" src="https://github.com/NekoSilverFox/NekoSilverfox/blob/master/icons/silverfox.svg" align="center" alt="NekoSilverfox" />
+ <h1 align="center">Science</h2>
+ <p align="center"><b>知识这东西就要随时的核实和订正</b></p>
+</p>
 
----
+<div align=center>
+
+[![License](https://img.shields.io/badge/license-Apache%202.0-brightgreen)](LICENSE)
+
+<div align=left>
+<!-- 顶部至此截止 -->
+
 
 # 思维与方法
 
@@ -298,6 +308,7 @@
 这篇研究的本意是说，对于基因序列的位点发生的变化，此前的研究存在偏差，把数值统计小了，而这次的研究更加全面。之所以说这次的研究更全面，就在于研究者把正向的突变和负向的突变全都考虑进来了，而此前的研究只考虑了正向突变。
 
 **什么是正向突变和负向突变呢？**
+
 **正向突变，指的是导致传播能力、致死率加强的那些突变**，也就是我们最关心的。而**负向突变，指的是导致感染能力、传播能力下降的那些突变**。由于这些负向突变发生后，逐渐就不在人群中传播了，于是就很容易被忽略，从而低估了病毒天然的变异速度。
 
 
