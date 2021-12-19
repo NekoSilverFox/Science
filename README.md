@@ -397,7 +397,116 @@
 
 `积分曲线` - 一阶微分方程 dy/dx = f(x, y) 的解y = φ(x)表示Oxy平面上的一条曲线，称为微分方程的积分曲线
 
+
+
 #### 追赶法 解微分方程
 
 追赶法：Метод 
+
+
+
+### 三对角矩阵(Tridiagonal Matrices)的求法：Thomas Algorithm(TDMA)
+
+> 引用来源：[三对角矩阵(Tridiagonal Matrices)的求法](https://www.cnblogs.com/xpvincent/archive/2013/01/25/2877411.html)
+
+做三次样条曲线时，需要解三对角矩阵（Tridiagonal Matrices）。常用解法为Thomas Algorithm，又叫The tridiagonal matrix algorithm (TDMA)。它是一种基于**高斯消元法**的算法， 分为两个阶段：向前消元forward elimination和回代backward substitution。本文以一个6乘6矩阵为例，介绍一下使用TDMA的求解过程
+
+**求解范例**
+
+![25212613-80d4fa7e8eca4910a7fa2274045ce0c7](https://images0.cnblogs.com/blog/477176/201301/25212613-80d4fa7e8eca4910a7fa2274045ce0c7.png)
+
+1. 将矩阵变为上三角矩阵
+
+    首先要把上面公式中的系数矩阵变为一个上三角矩阵。
+
+    **第一行：**
+
+    ![25213336-c66b05e67fe6431bb122ae32f61f3b8b](https://images0.cnblogs.com/blog/477176/201301/25213336-c66b05e67fe6431bb122ae32f61f3b8b.png)
+
+    将上式除以b1：
+
+    ![](https://images0.cnblogs.com/blog/477176/201301/25213600-b9b6df13292f472c811452ddf73ceb91.png)
+
+    可写作：
+
+    ![](https://images0.cnblogs.com/blog/477176/201301/25213727-b684dac2ecd340869f103a1037e73bdc.png)
+
+    所以矩阵方程可写为：
+
+    ![](https://images0.cnblogs.com/blog/477176/201301/25213904-cef2a8c072b14c1db848239fc5386e8b.png)
+
+    **第二行：**
+
+    ![](https://images0.cnblogs.com/blog/477176/201301/25214405-05b0812d58f34f998e8828031a85aebb.png)
+
+    将变换后的第一行乘以a2，再与第二行相减，即可消去x1，得：
+
+    ![](README.assets/25214909-6a28f922c01f45db8ffbe855214f6de1.png)
+
+    所以新的矩阵方程为：
+
+    ![](https://images0.cnblogs.com/blog/477176/201301/25232309-0b76d81aaf6a410696b93f6912d558d8.png)
+
+    同理可推，
+
+    **第三行：**
+
+    ![img](https://images0.cnblogs.com/blog/477176/201301/25232706-522f6f5eee9343838e91b514a4fbf8e9.png)
+
+    **第四行：**
+
+    ![img](https://images0.cnblogs.com/blog/477176/201301/25232759-aa893192578946ffa181de561690652c.png)
+
+    **第五行：**
+
+    ![img](https://images0.cnblogs.com/blog/477176/201301/25232918-b3512919e7774025b447ab15cfb301a5.png)
+
+    **第六行：**
+
+    ![img](https://images0.cnblogs.com/blog/477176/201301/25233014-e645c8e255f5435987ccb3a10decffa8.png)
+
+    最后得到新的上三角矩阵公式为：
+
+    ![img](https://images0.cnblogs.com/blog/477176/201301/25233307-30de924c1d3f4b6c9fe5ab8d0e6961dd.png)
+
+2. 求解
+
+    x逆序可以求出，如下：
+
+    ![img](https://images0.cnblogs.com/blog/477176/201301/25233918-088755af33e64755adf6d8d0649c57bf.png)
+
+    ![img](https://images0.cnblogs.com/blog/477176/201301/25234014-ba73668f76a0414c9f6caad0e07e00c0.png)
+
+    ![img](https://images0.cnblogs.com/blog/477176/201301/25234127-e7a452df92fb4290b13f07a716de69ba.png)
+
+    ![img](https://images0.cnblogs.com/blog/477176/201301/25234209-497409e648d145b094de6bb31b30035c.png)
+
+    ![img](https://images0.cnblogs.com/blog/477176/201301/25234249-5a433c8169f848aca352107d0dad9a46.png)
+
+    ![img](https://images0.cnblogs.com/blog/477176/201301/25234328-b9c5bb038b094050ab1ad37245a15d30.png)
+
+**一般性公式：**
+
+
+![img](https://images0.cnblogs.com/blog/477176/201301/25235211-ced0bc00ec51409fa8b8cdbb73c754c2.png)
+
+![img](https://images0.cnblogs.com/blog/477176/201301/25235250-bbb3d1ecae454a0090b2ffc8481d78bc.png)
+
+![img](https://images0.cnblogs.com/blog/477176/201301/25235308-3913dde4eb17486388d20c77688a8374.png)
+
+![img](https://images0.cnblogs.com/blog/477176/201301/25235326-a121f0bf59644b1b846eac849bec9cd6.png)
+
+**注意：**
+
+使用TDMA求解，系数矩阵需时diagonally dominant， 即：
+
+![img](https://images0.cnblogs.com/blog/477176/201301/25234714-75b1ea56b0d94cd4bcbe861439dca9a3.png)
+
+
+
+ 
+
+
+
+
 
