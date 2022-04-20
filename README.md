@@ -40,6 +40,40 @@
 
 # 医学与健康
 
+## 食物的毒性
+
+### 豆角（菜豆）
+
+==菜豆（包括食荚的四季豆和食豆的芸豆）含[皂苷](https://zh.wikipedia.org/wiki/皂苷)和[植物血凝素](https://zh.wikipedia.org/wiki/植物血凝素)（即植物产生的[血球凝集素](https://zh.wikipedia.org/wiki/血球凝集素)）==，可引致食物中毒。中毒症状出现[头](https://zh.wikipedia.org/wiki/頭)[晕](https://zh.wikipedia.org/wiki/暈)、[头痛](https://zh.wikipedia.org/wiki/頭痛)、[呕吐](https://zh.wikipedia.org/wiki/嘔吐)、[腹](https://zh.wikipedia.org/wiki/腹)[痛](https://zh.wikipedia.org/wiki/痛)、[手](https://zh.wikipedia.org/wiki/手)[脚](https://zh.wikipedia.org/wiki/腳)麻木、心慌等[病症](https://zh.wikipedia.org/wiki/病症)。[红芸豆](https://zh.wikipedia.org/w/index.php?title=紅芸豆&action=edit&redlink=1)含20,000-70,000个血凝单位，但完全煮熟后只有200-400个血凝单位。[白芸豆](https://zh.wikipedia.org/w/index.php?title=白芸豆&action=edit&redlink=1)的植物血凝素只有红芸豆的三分之一。
+
+为了防止中毒，菜豆一定要彻底煮熟。在摄氏100度煮10分钟能够完全破坏血凝素，但实际烹煮过程中菜豆的温度可能不会那么快达到高温，因此 ==FDA建议烹煮菜豆30分钟==。至于干豆，在食用前应把干豆泡在水里至少五小时，把泡过豆的水倒掉，然后再进行烹煮。
+
+假若四季豆没有在沸水里煮过，植物血凝素的毒性不单不能消除，还可能会增加。FDA指四季豆在摄氏80度的水里煮，植物血凝素会增加至未煮前的五倍
+
+
+
+
+
+### 鱼腥草
+
+> https://zh.wikipedia.org/wiki/%E9%B1%BC%E8%85%A5%E8%8D%89
+
+**鱼腥草**（[学名](https://zh.wikipedia.org/wiki/學名)：*Houttuynia cordata*），又名**折耳根**、**截儿根**、**猪鼻拱**、**䔃**（音同“组”）、**蕺菜**及**臭草**[[1\]](https://zh.wikipedia.org/wiki/鱼腥草#cite_note-1)、**岑草**[[2\]](https://zh.wikipedia.org/wiki/鱼腥草#cite_note-2)，[客家话](https://zh.wikipedia.org/wiki/客家話)称之**狗贴耳**，**臭臊草**、**臭嗟草**（台语），在分类学上属[双子叶植物](https://zh.wikipedia.org/wiki/雙子葉植物)[三白草科](https://zh.wikipedia.org/wiki/三白草科)[蕺菜属](https://zh.wikipedia.org/wiki/蕺菜属)，是一种略带鱼腥味的草本植物。
+
+![File:Heartleaf_Houttuynia](https://zh.wikipedia.org/wiki/File:Heartleaf_Houttuynia.jpg)
+
+
+
+**潜在毒性：**
+
+==鱼腥草含马兜铃内酰胺==（aristolactams，AL）[[7\]](https://zh.wikipedia.org/wiki/鱼腥草#cite_note-7)，为[马兜铃酸](https://zh.wikipedia.org/wiki/马兜铃酸)进入体内后的代谢物。==[马兜铃酸](https://zh.wikipedia.org/wiki/马兜铃酸)与肾脏损伤有直接关系。==
+
+采用ELISA法检测细胞培养上清液中细胞外基质成分纤连蛋白(FN)以及促纤维化细胞因子转化生长因子β1(TGF β1)的分泌水平。结果：AL-I(2．5—20mg·L^-1)具有浓度依赖的直接细胞损伤作用；细胞形态、DNA含量及PS表达水平分析表明，AL-I在上述浓度范围内能够导致HK-2细胞凋亡，并能够导致HK-2细胞分泌TGF81及FN。与AA-I的作用进行比较发现：在相同浓度情况下，AK-2的直接细胞毒作用强于AA-I，但其导致细胞凋亡、TGFβ1及FN分泌的能力弱于AA—I。结论：马兜铃酸的代谢产物AL-I能够造成肾小管上皮细胞的损伤，作用与AA—I相似。尽管其致损伤作用较AA—I弱，但仍有可能是含马兜铃酸中药导致肾脏损伤及其纤维化过程的毒性成分之。[[8\]](https://zh.wikipedia.org/wiki/鱼腥草#cite_note-8)
+
+马兜铃内酰胺-I具有一定肾毒性和细胞生长抑制作用，但鱼腥草中含有马兜铃内酰胺-BII、马兜铃内酰胺-AII和马兜铃内酰胺-FII（总0.016g/kg），未见含有马兜铃内酰胺-I报道。其次，马兜铃内酰胺与DNA形成加合物的机制研究尚不完善，且不能完全由马兜铃酸-I机制类推；此外，鱼腥草中包括马兜铃内酰胺-BII等部分生物碱还具有一定药理活性，对凝血酶诱导的血小板聚集产生显著的抑制作用，加之有益黄酮类物质的存在。[[9](https://zh.wikipedia.org/wiki/鱼腥草#cite_note-9)
+
+
+
 
 
 # 通信技术与操作系统
